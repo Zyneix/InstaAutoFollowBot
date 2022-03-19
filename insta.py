@@ -9,9 +9,9 @@ browser.get("https://www.instagram.com")
 time.sleep (3)
 
 #identify user field and send username
-username_input = browser.find_element_by_css_selector("input[name='username']").send_keys("User name here")
+username_input = browser.find_element_by_css_selector("input[name='animegirl9460']").send_keys("User name here")
 #identify password field and send password
-password_input = browser.find_element_by_css_selector("input[name='password']").send_keys("Password here")
+password_input = browser.find_element_by_css_selector("input[name='xenotron']").send_keys("Password here")
 #find and click submit
 login_button = browser.find_element_by_xpath("//button[@type='submit']")
 login_button.click()
